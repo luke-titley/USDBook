@@ -1,7 +1,7 @@
 # Overrides
 
 
-When expressing an opinion withing a layer. it is possible to "redefine" a previously defined value of the property being edited. This mechanism is known as `overrides` because you are _overriding_ what was there before.  
+When expressing an opinion within a layer. it is possible to "redefine" a previously defined value of the property being edited. This mechanism is known as `overrides` because you are _overriding_ what was there before.  
 However, it is very important to note that the _original data_ remains unchanged. **The override only exists within the layer where you are defining it**
 
 This is by far _the most important_ aspect to understand about USD. Opinions and its "value resolution" (resolving which value gets applied in the end) is key to the entire composition mechanism.
